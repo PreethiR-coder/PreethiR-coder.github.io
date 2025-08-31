@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Python Projects · Preethi Rajesh</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2fff7;
+      margin: 0;
+      padding: 0;
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 16px;
+    }
+    h1 {
+      text-align: center;
+      color: #064420;
+      margin-bottom: 40px;
+    }
+    .project {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+      margin-bottom: 60px;
+    }
+    .project img {
+      flex: 1;
+      max-width: 400px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    }
+    .project .desc {
+      flex: 2;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+    .project h2 {
+      margin-top: 0;
+      color: #064420;
+    }
+    @media (max-width: 860px) {
+      .project {
+        flex-direction: column;
+        align-items: center;
+      }
+      .project img {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand">Preethi Rajesh</div>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      
+      <a href="certifications.html">Certifications</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>Python Projects</h1>
+
+  <div class="project">
+    <img src="images/python-email-tool.png" alt="Python Email Notification Tool Screenshot">
+    <div class="desc">
+      <h2>IT Support Notification Tool</h2>
+      <p>
+        I developed a <strong>Python-based IT support notification tool</strong> with a 
+        <strong>Tkinter GUI</strong>. It integrates with <strong>SMTP (TLS)</strong> and modular 
+        email templates to automate IT workflows such as incident updates, MFA reminders, 
+        and ticket closures. This project demonstrates skills in <strong>GUI development, 
+        secure email automation, and modular scripting</strong>.
+      </p>
+    </div>
+  </div>
+
+ 
+  <div class="project">
+    <div class="desc">
+      <h2>SQLite User Database Tool</h2>
+      <p>
+        I built a <strong>desktop CRUD application</strong> in Python using 
+        <strong>Tkinter and SQLite</strong>. The tool allows adding, updating, 
+        searching, and deleting user records with a simple interface. 
+        This project showcases my skills in <strong>database management, 
+        event-driven programming, and Python GUI design</strong>.
+      </p>
+    </div>
+    <img src="images/python-sqlite-tool.png" alt="SQLite CRUD Tool Screenshot">
+  </div>
+
+</main>
+
+</body>
+</html>

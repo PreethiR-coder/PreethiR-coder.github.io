@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tableau Projects · Preethi Rajesh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2fff7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #d6f5e6;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .brand {
+      font-weight: bold;
+      color: #064420;
+      font-size: 20px;
+    }
+    nav a {
+      margin-left: 16px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #064420;
+    }
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 16px;
+    }
+    h1 {
+      text-align: center;
+      color: #064420;
+      margin-bottom: 32px;
+    }
+    .flexbox {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+    .left, .right {
+      flex: 1;
+    }
+    .desc {
+      font-size: 18px;
+      line-height: 28px;
+      text-align: justify;
+      margin-bottom: 18px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    }
+    figcaption {
+      font-size: 14px;
+      color: #1f4a37;
+      margin-top: 6px;
+      text-align: center;
+    }
+    @media (max-width: 860px) {
+      .flexbox {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="brand">Preethi Rajesh</div>
+  <nav>
+    <a href="index.html">Home</a>
+   
+    <a href="certifications.html">Certifications</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Tableau Projects</h1>
+
+  <div class="flexbox">
+   
+    <div class="left">
+      <p class="desc">
+        I created and published interactive dashboards in <strong>Tableau</strong> to showcase analytical and
+        reporting skills. Starting from <strong>Excel</strong> data, I performed <strong>data wrangling</strong>
+        designed clear visuals and added interactivity with <strong>dropdown selectors</strong> and <strong>parameter sliders</strong>
+        to dynamically filter and explore numbers. Everything was designed as a <strong>single-page dashboard</strong>
+        so users can interact without navigating away.
+      </p>
+      <figure>
+        <img src="images/tableau-dashboard-1.png" alt="Australia Black Summer dashboard">
+        <figcaption>Overview dashboard with KPIs and trends.</figcaption>
+      </figure>
+    </div>
+
+ 
+    <div class="right">
+      <figure>
+        <img src="images/tableau-dashboard-2.png" alt="CAT vs DOG analysis dashboard">
+        <figcaption>CAT vs DOG analysis with filters, sliders, and interactive breakdowns.</figcaption>
+      </figure>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
